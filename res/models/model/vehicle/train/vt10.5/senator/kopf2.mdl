@@ -1,0 +1,198 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 12.191909790039, 1.5636541843414, 3.716038942337, },
+		bbMin = { -6.176175689697, -1.56365442276, -0.038087427616119, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 12.634042739868, 1.5636543035507, 1.8770631551743, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+        				children = {
+                            {
+						        materials = { "vehicle/train/vt10.5/senator/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/drehgestell_lod0.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/vt10.5/senator/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1544, 0, 0.39278826117516, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/vt10.5/senator/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1544, 0, 0.39278826117516, 1, },
+					        },
+                        },
+				        name = "bogie",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302979, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/vt10.5/senator/kopf2.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf2/rumpf_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/kopf2.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf2/kupplungskappe_lod0.msh",
+						name = "kupplungskappe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/kopf2.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf2/tuer_links_lod0.msh",
+						name = "tur1_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/kopf2.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf2/tuer_rechts_lod0.msh",
+						name = "tur1_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf2/glas_kopf_2_lod0.msh",
+						name = "glas_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf2/glas_licht_lod0.msh",
+						name = "glas_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/innen_kopf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf2/innen_lod0.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 3474.4672851562,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1850,
+--			yearTo = 1996,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+            name = _("AKN_VTA"),
+        },
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		particleSystem = {
+			emitters = {
+				{
+					child = 1,
+					color = { 0.3, 0.3, 0.3, },
+					frequency = 40,
+					lifeTime = 0.2,
+					position = { 5.97, 0, 3.68, },
+					size01 = { 0.2, 2, },
+					velocity = { 0, 0, 3, },
+				},
+			},
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/train/vt10.5/senator/rad_lod0.msh", },
+					backBackwardParts = {  },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					frontBackwardParts = { },
+					frontForwardParts = {  },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = -6.15,
+						},
+					},
+				},
+			},
+			engines = {
+				{
+					power = 228,
+					tractiveEffort = 115,
+					type = "DIESEL",
+				},
+			},
+			soundSet = {
+				horn = "vehicle/train_diesel/horn_13_freight.wav",
+				name = "train_diesel",
+			},
+			topSpeed = 27.777777778,
+			weight = 25.95,
+		},
+		seatProvider = {
+			drivingLicense = "RAIL",
+			seats = {
+			--[[	{
+                    animation = "driving_upright",
+                    crew = true,
+                    forward = true,
+                    group = 0,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.55, 0, 1.1, 1, },
+                }, ]]
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 44,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			loadSpeed = 4,
+			multipleUnitOnly = true,
+			reversible = true,
+		},
+	},
+	version = 1,
+}
+end

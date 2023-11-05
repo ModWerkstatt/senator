@@ -1,0 +1,46 @@
+function data()
+return {
+	en = {
+		["mod_name"] = "VT 10.5 Senator",
+		["mod_desc"] = "The VT 2E is a diesel-electric double multiple unit from the manufacturer Linke-Hofmann-Busch for local traffic. The vehicles are listed in the German vehicle settings register as series 0609.0 or 0133.2. In Austria, Simmering-Graz-Pauker manufactured the VT 70 under license.\nThe railcars were originally developed for the AKN railway. Because of their success, they were also appointed to HLB and deployed to GKB in Austria.",
+        ["VT2e_menu"] = "VTE / VT 2E / VT 70",
+
+        ["GKB_VT70_name"] = "VT 70 GKB",
+		["GKB_VT70_desc"] = "The Graz-Köflacher Eisenbahn (GKE) in Austria procured a further development of the VT 2e. There were changes in the equipment: One half of the railcar has a toilet, the seats are arranged in 2 + 3 vis-a-vis compartments. Another, somewhat more powerful diesel engine was used to cope with the steeper gradients compared to the Hamburg region.",
+        ["AKN_VTE_name"] = "VTE AKN",
+        ["AKN_VTE_desc"] = "The VTE is the first model of the railcar that the AKN procured from 1976. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face.",
+        ["AKN_VTE_modern_name"] = "VTE AKN",
+        ["AKN_VTE_modern_desc"] = "The VTE is the first model of the railcar that the AKN procured from 1976. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face. The paintwork is the modern version of the AKN.",
+        ["VT70a_GKB"] = "VT 70 A GKB",
+        ["VT70b_GKB"] = "VT 70 B GKB",
+        ["AKN_VTE_modern"] = "VT 2.39 AKN",
+        ["AKN_VTA"] = "VT2E AKN",
+        ["AKN_VTA_name"] = "VT2E AKN",
+		["AKN_VTA_desc"] = "The VTA is the second model of the railcar that the AKN procured from 1993. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face.",
+        ["TSB_VTA"] = "VT2E TSB",
+		["TSB_VTA_name"] = "VT2E TSB",
+        ["TSB_VTA_desc"] = "The VTA is the second model of the railcar that the FKE procured from 1987. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face.",
+	},
+	de = {
+		["mod_name"] = "VT 10.5 Senator",
+		["mod_desc"] = "Der VT 2E ist ein dieselelektrischer Doppeltriebwagen des Herstellers Linke-Hofmann-Busch für den Nahverkehr. Die Fahrzeuge werden im deutschen Fahrzeugeinstellungsregister als Baureihe 0609.0 bzw. 0133.2 geführt. In Österreich fertigte Simmering-Graz-Pauker den VT 70 in Lizenz.\nUrsprünglich wurden die Triebwagen für die AKN Eisenbahn entwickelt. Durch ihren Erfolg wurden sie auch bei der HLB bestellt und in Österreich bei der GKB eingesetzt.",
+        ["VT2e_menu"] = "VTE / VT 2E / VT 70",
+
+        ["GKB_VT70_name"] = "VT 70 GKB",
+		["GKB_VT70_desc"] = "Die Graz-Köflacher Eisenbahn (GKE) in Österreich beschaffte eine Weiterentwicklung des VT 2e. Änderungen gab es in der Ausstattung: Eine Triebwagenhälfte verfügt über eine Toilette, die Sitzplätze sind in 2+3-vis-a-vis-Abteilen angeordnet. Auch wurde ein anderer, etwas stärkerer Dieselmotor verwendet, um die im Vergleich zur Region Hamburg größeren Steigungen bewältigen zu können.",
+        ["AKN_VTE_name"] = "VTE AKN",
+        ["AKN_VTE_desc"] = "Der VTE ist das erste Modell des Triebwagens, den die AKN ab dem Jahr 1976 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis.",
+        ["AKN_VTE_modern_name"] = "VTE AKN",
+        ["AKN_VTE_modern_desc"] = "Der VTE ist das erste Modell des Triebwagens, den die AKN ab dem Jahr 1976 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis. Die Lackierung ist die moderne Version der AKN.",
+        ["VT70a_GKB"] = "VT 70 A GKB",
+        ["VT70b_GKB"] = "VT 70 B GKB",
+        ["AKN_VTE_modern"] = "VT 2.39 AKN",
+        ["AKN_VTA"] = "VT2E AKN",
+        ["AKN_VTA_name"] = "VT2E AKN",
+		["AKN_VTA_desc"] = "Der VTA ist das zweite Modell des Triebwagens, den die AKN ab dem Jahr 1993 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis.",
+        ["TSB_VTA"] = "VT2E TSB",
+		["TSB_VTA_name"] = "VT2E TSB",
+        ["TSB_VTA_desc"] = "Der VTA ist das zweite Modell des Triebwagens, den die FKE ab dem Jahr 1987 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis.",
+	},
+}
+end

@@ -1,0 +1,94 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 0.2, 1.5636541843414, 3.716038942337, },
+		bbMin = { -0.2, -1.56365442276, -0.038087427616119, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 28.634042739868, 1.5636543035507, 1.8770631551743, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/vt10.5/senator/wagen1/rumpf.mtl", "vehicle/train/vt10.5/senator/beweglich.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/jacobsdreh_lod0.msh",
+						name = "jacobsdreh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.399382, 1, },
+					},
+			        {
+				        materials = { "vehicle/train/vt10.5/senator/beweglich.mtl", },
+				        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
+				        name = "rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39278826117516, 1, },
+			        },
+                },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 3474.4672851562,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1850,
+--			yearTo = 2013,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+            name = _("drehgestell"),
+        },
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = -0.2,
+						},
+						{
+							group = 0,
+							offset = 0,
+							position = 0.2,
+						},
+					},
+				},
+			},
+			engines = {	},
+			soundSet = {
+				horn = "",
+				name = "waggon_modern",
+			},
+			topSpeed = 25,
+			weight = 0,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			loadSpeed = 0,
+			multipleUnitOnly = true,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

@@ -1,0 +1,152 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.0, 1.5636541843414, 3.716038942337, },
+		bbMin = { -6.0, -1.56365442276, -0.038087427616119, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.634042739868, 1.5636543035507, 1.8770631551743, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/vt10.5/senator/wagen3/rumpf.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen3/rumpf_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/senator/wagen3/innen.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen3/innen_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/glas.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen3/fenster_wagen_3_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.05, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/glas.mtl", "vehicle/waggon/vt10.5/senator/wagen3/rumpf.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen3/ture_mittenwagen_l_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/senator/glas.mtl", "vehicle/waggon/vt10.5/senator/wagen3/rumpf.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen3/ture_mittenwagen_r_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/senator/wagen1/rumpf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod0.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/senator/wagen1/rumpf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod0.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 3474.4672851562,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1850,
+--			yearTo = 1968,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("vm125_name"),
+		},
+		emission = {
+			idleEmission = -1,
+			--powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = -5.9,
+						},
+						{
+							group = 0,
+							offset = 0,
+							position = 5.9,
+						},
+					},
+				},
+			},
+			engines = { },
+			soundSet = {
+				name = "waggon_modern",
+			},
+			topSpeed = 38.888888888889,
+			weight = 33.3,
+		},
+		seatProvider = {
+			drivingLicense = "RAIL",
+			seats = {
+            },
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 92,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			loadSpeed = 4,
+			multipleUnitOnly = true,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
