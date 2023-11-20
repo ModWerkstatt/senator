@@ -16,13 +16,13 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/vt10.5/senator/wagen1/rumpf.mtl", "vehicle/train/vt10.5/senator/beweglich.mtl", },
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/rumpf.mtl", "vehicle/train/vt10.5/senator_1/beweglich.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/jacobsdreh_lod0.msh",
 						name = "jacobsdreh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.399382, 1, },
 					},
 			        {
-				        materials = { "vehicle/train/vt10.5/senator/beweglich.mtl", },
+				        materials = { "vehicle/train/vt10.5/senator_1/beweglich.mtl", },
 				        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
 				        name = "rad",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39278826117516, 1, },
@@ -38,8 +38,8 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1850,
---			yearTo = 2013,
+			yearFrom = 1953,
+			yearTo = 1960,
 		},
 		cost = {
 			price = -1,
@@ -79,7 +79,7 @@ return {
 				horn = "",
 				name = "waggon_modern",
 			},
-			topSpeed = 25,
+			topSpeed = 33.333333333333,
 			weight = 0,
 		},
 		transportVehicle = {

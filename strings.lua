@@ -1,46 +1,60 @@
 function data()
 return {
 	en = {
-		["mod_name"] = "VT 10.5 Senator",
-		["mod_desc"] = "The VT 2E is a diesel-electric double multiple unit from the manufacturer Linke-Hofmann-Busch for local traffic. The vehicles are listed in the German vehicle settings register as series 0609.0 or 0133.2. In Austria, Simmering-Graz-Pauker manufactured the VT 70 under license.\nThe railcars were originally developed for the AKN railway. Because of their success, they were also appointed to HLB and deployed to GKB in Austria.",
-        ["VT2e_menu"] = "VTE / VT 2E / VT 70",
 
-        ["GKB_VT70_name"] = "VT 70 GKB",
-		["GKB_VT70_desc"] = "The Graz-Köflacher Eisenbahn (GKE) in Austria procured a further development of the VT 2e. There were changes in the equipment: One half of the railcar has a toilet, the seats are arranged in 2 + 3 vis-a-vis compartments. Another, somewhat more powerful diesel engine was used to cope with the steeper gradients compared to the Hamburg region.",
-        ["AKN_VTE_name"] = "VTE AKN",
-        ["AKN_VTE_desc"] = "The VTE is the first model of the railcar that the AKN procured from 1976. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face.",
-        ["AKN_VTE_modern_name"] = "VTE AKN",
-        ["AKN_VTE_modern_desc"] = "The VTE is the first model of the railcar that the AKN procured from 1976. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face. The paintwork is the modern version of the AKN.",
-        ["VT70a_GKB"] = "VT 70 A GKB",
-        ["VT70b_GKB"] = "VT 70 B GKB",
-        ["AKN_VTE_modern"] = "VT 2.39 AKN",
-        ["AKN_VTA"] = "VT2E AKN",
-        ["AKN_VTA_name"] = "VT2E AKN",
-		["AKN_VTA_desc"] = "The VTA is the second model of the railcar that the AKN procured from 1993. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face.",
-        ["TSB_VTA"] = "VT2E TSB",
-		["TSB_VTA_name"] = "VT2E TSB",
-        ["TSB_VTA_desc"] = "The VTA is the second model of the railcar that the FKE procured from 1987. In this model, each half of the railcar has a diesel engine. The seating arrangement is 2+2 face-to-face.",
+		["mod_name"] = "DB VT 10.5 Senator",
+		["mod_desc"] = "Two articulated trains from the German Federal Railway were referred to as VT 10.5, one of which was purchased together. VT 10 501 Senator was intended for daytime use, VT 10 551 Komet for nighttime use. A third train for the Deutsche Bundespost was no longer built.\nBoth multiple units were equipped with two motors in the power cars for the drive and two additional small motors for the power supply. Both trains were made of aluminum alloys, were quite maintenance-sensitive and were only in use for a very short time.",
+
+        ["vt10.5_menu"] = "VT 10.5 Senator",
+
+        ["senator_1_name"] = "VT 10.5 Senator (1954)",
+        ["senator_2_name"] = "VT 10.5 Senator (1954)",
+        ["senator_2_desc"] = "Two articulated trains from the German Federal Railway were referred to as VT 10.5, one of which was purchased together. The VT 10 501 Senator was intended for daytime use. After a few days in use, an accident occurred in 1954 after the front of the train was slightly modified and repainted. It remained in use until 1959, but did not prove successful due, among other things, to the very hard chassis.",
+        ["komet_name"] = "VT 10.5 Komet (1954)",
+        ["komet_desc"] = "Two articulated trains from the German Federal Railway were referred to as VT 10.5, one of which was purchased together. The VT 10 551 Komet was intended for use at night and consisted of cars with sleeping compartments. The multiple unit proved successful, but was quite expensive due to a total of 6 engines (4 for driving, 2 for the auxiliary operations) and as a single example it could only run between Hamburg and Basel every 2 days. He was decommissioned in October 1957.",
+
+        ["senator_kopf"] = "Power head VT 10 501 Senator",
+        ["senator_wagen_c_f"] = "Centre carriage c and f, Seats",
+        ["senator_wagen_d"] = "Centre carriage d, Linen cupboard, wardrobe, boot",
+        ["senator_wagen_e"] = "Centre carriage e, two boot rooms, two cloakrooms, kitchen, sideboard, pantry, toilet",
+        ["senator_wagen_g"] = "Centre carriage g, Cloakroom, boot, two toilets",
+
+        ["komet_kopf"] = "Power head VT 10 551 Komet",
+        ["komet_wagen_c"] = "Centre carriage c, with toilet, washroom, 2 DSG service compartments, boot",
+        ["komet_wagen_d"] = "Centre carriage d, with toilet, 2 luggage compartments",
+        ["komet_wagen_e"] = "Centre carriage e, Kitchen with buffet and bar",
+        ["komet_wagen_f"] = "Centre carriage f, Toilet, luggage, laundry and storage rooms",
+        ["komet_wagen_g"] = "Centre carriage g, Service compartment, washroom, luggage, laundry and storage rooms",
+        ["komet_wagen_h"] = "Dining room with 21 seats",
+
 	},
 	de = {
-		["mod_name"] = "VT 10.5 Senator",
-		["mod_desc"] = "Der VT 2E ist ein dieselelektrischer Doppeltriebwagen des Herstellers Linke-Hofmann-Busch für den Nahverkehr. Die Fahrzeuge werden im deutschen Fahrzeugeinstellungsregister als Baureihe 0609.0 bzw. 0133.2 geführt. In Österreich fertigte Simmering-Graz-Pauker den VT 70 in Lizenz.\nUrsprünglich wurden die Triebwagen für die AKN Eisenbahn entwickelt. Durch ihren Erfolg wurden sie auch bei der HLB bestellt und in Österreich bei der GKB eingesetzt.",
-        ["VT2e_menu"] = "VTE / VT 2E / VT 70",
 
-        ["GKB_VT70_name"] = "VT 70 GKB",
-		["GKB_VT70_desc"] = "Die Graz-Köflacher Eisenbahn (GKE) in Österreich beschaffte eine Weiterentwicklung des VT 2e. Änderungen gab es in der Ausstattung: Eine Triebwagenhälfte verfügt über eine Toilette, die Sitzplätze sind in 2+3-vis-a-vis-Abteilen angeordnet. Auch wurde ein anderer, etwas stärkerer Dieselmotor verwendet, um die im Vergleich zur Region Hamburg größeren Steigungen bewältigen zu können.",
-        ["AKN_VTE_name"] = "VTE AKN",
-        ["AKN_VTE_desc"] = "Der VTE ist das erste Modell des Triebwagens, den die AKN ab dem Jahr 1976 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis.",
-        ["AKN_VTE_modern_name"] = "VTE AKN",
-        ["AKN_VTE_modern_desc"] = "Der VTE ist das erste Modell des Triebwagens, den die AKN ab dem Jahr 1976 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis. Die Lackierung ist die moderne Version der AKN.",
-        ["VT70a_GKB"] = "VT 70 A GKB",
-        ["VT70b_GKB"] = "VT 70 B GKB",
-        ["AKN_VTE_modern"] = "VT 2.39 AKN",
-        ["AKN_VTA"] = "VT2E AKN",
-        ["AKN_VTA_name"] = "VT2E AKN",
-		["AKN_VTA_desc"] = "Der VTA ist das zweite Modell des Triebwagens, den die AKN ab dem Jahr 1993 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis.",
-        ["TSB_VTA"] = "VT2E TSB",
-		["TSB_VTA_name"] = "VT2E TSB",
-        ["TSB_VTA_desc"] = "Der VTA ist das zweite Modell des Triebwagens, den die FKE ab dem Jahr 1987 beschaffte. Bei diesem Modell verfügt jede Triebwagenhälfte über einen Dieselmotor. Die Sitzplatzanordnung ist 2+2 vis-a-vis.",
+		["mod_name"] = "DB VT 10.5 Senator",
+		["mod_desc"] = "Als VT 10.5 wurden zwei Gliederzüge der Deutschen Bundesbahn bezeichnet, die gemeinsam beschafft wurden in je einem Exemplar. VT 10 501 Senator war für den Tageinsatz vorgesehen, VT 10 551 Komet für die Nacht. Ein dritter Zug für die Deutsche Bundespost wurde nicht mehr realisiert.\nBeide Triebzügen waren in den Triebköpfen mit jeweils 2 Motoren für den Antrieb ausgerüstet sowie je zwei weiteren kleinen Motoren für die Stromversorgung. Beide Zügen waren aus Aluminiumlegierungen hergestellt, waren recht wartungsanfällig und jeweils nur recht kurze Zeit im Einsatz.",
+
+        ["vt10.5_menu"] = "VT 10.5 Senator",
+
+        ["senator_1_name"] = "VT 10.5 Senator (1953)",
+        ["senator_2_name"] = "VT 10.5 Senator (1953)",
+        ["senator_2_desc"] = "Als VT 10.5 wurden zwei Gliederzüge der Deutschen Bundesbahn bezeichnet, die gemeinsam beschafft wurden in je einem Exemplar. Der VT 10 501 Senator war für den Einsatz am Tag vorgesehen. Nach wenigen Tagen im Einsatz kam es 1954 zu einem Unfall, nachdem der Zug an der Front etwas umgebaut wurde und neu lackiert. Es blieb noch bis 1959 im Einsatz, bewährte sich aber nicht u.a. aufgrund des sehr harten Fahrwerks.",
+        ["komet_name"] = "VT 10.5 Komet (1953)",
+        ["komet_desc"] = "Als VT 10.5 wurden zwei Gliederzüge der Deutschen Bundesbahn bezeichnet, die gemeinsam beschafft wurden in je einem Exemplar. Der VT 10 551 Komet war für den Einsatz in der Nacht vorgesehen und bestand aus Wagen mit Schlafabteilen. Der Triebzug bewährte sich, war allerdings recht kostenintensiv durch insgesamt 6 Motoren (4 zum Antrien, 2 für die Hilfsbetriebe) und als Einzelexemplar konnte er nur alle 2 Tage zwischen Hamburg und Basel verkehren. Er wurde im Oktober 1957 abgestellt.",
+
+        ["senator_kopf"] = "Triebkopf VT 10 501 Senator",
+        ["senator_wagen_c_f"] = "Mittelwagen c und f, Sitzplätze",
+        ["senator_wagen_d"] = "Mittelwagen d, Wäscheschrank, Garderobe, Kofferraum",
+        ["senator_wagen_e"] = "Mittelwagen e, zwei Kofferräume, zwei Garderoben, Küche, Anrichte, Vorratsraum, Toilette",
+        ["senator_wagen_g"] = "Mittelwagen g, Garderobe, Kofferraum, zwei Toiletten",
+
+        ["komet_kopf"] = "Triebkopf VT 10 551 Komet",
+        ["komet_wagen_c"] = "Mittelwagen c, mit Toilette, Waschraum, 2 DSG-Dienstabteile, Kofferraum",
+        ["komet_wagen_d"] = "Mittelwagen d, mit Toilette, 2 Kofferräume",
+        ["komet_wagen_e"] = "Mittelwagen e, Küche mit Buffet und Bar",
+        ["komet_wagen_f"] = "Mittelwagen f, Toilette, Koffer-, Wäsche- und Vorratsräume",
+        ["komet_wagen_g"] = "Mittelwagen g, Dienstabteil, Waschraum, Koffer-, Wäsche- und Vorratsräume",
+        ["komet_wagen_h"] = "Speiseraum mit 21 Plätzen",
+
 	},
 }
 end
