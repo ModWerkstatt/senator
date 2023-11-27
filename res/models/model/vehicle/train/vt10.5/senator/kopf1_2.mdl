@@ -181,12 +181,12 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/vt10.5/senator/rad_lod0.msh", },
-					backBackwardParts = { 12, 17, },
+					backBackwardParts = { 15, 17, },
 					backForwardParts = { },
 					blinkingLights0 = { },
 					blinkingLights1 = { },
 					frontBackwardParts = { },
-					frontForwardParts = { 11, 16, },
+					frontForwardParts = { 14, 16, },
 					innerBackwardParts = { },
 					innerForwardParts = { },
 					fakeBogies = {

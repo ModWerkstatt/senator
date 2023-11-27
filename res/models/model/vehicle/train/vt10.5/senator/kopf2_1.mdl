@@ -60,7 +60,7 @@ return {
 					{
 						materials = { "vehicle/train/vt10.5/senator_2/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf2/glas_kopf_2_lod0.msh",
-						name = "glas_kopf_12",
+						name = "glas_kopf_2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
@@ -68,6 +68,12 @@ return {
 						mesh = "vehicle/train/vt10.5/senator/kopf2/glas_licht_lod0.msh",
 						name = "glas_licht",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/rumpf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod0.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.21, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/vt10.5/senator_2/innen_kopf.mtl", },
@@ -163,12 +169,12 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/vt10.5/senator/rad_lod0.msh", },
-					backBackwardParts = { 12, 14, },
+					backBackwardParts = { 13, 15, },
 					backForwardParts = { },
 					blinkingLights0 = { },
 					blinkingLights1 = { },
 					frontBackwardParts = { },
-					frontForwardParts = { 11, 13, },
+					frontForwardParts = { 12, 14, },
 					innerBackwardParts = { },
 					innerForwardParts = { },
 					fakeBogies = {
