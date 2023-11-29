@@ -28,8 +28,8 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/vt10.5/senator_1/glas.mtl", },
-						mesh = "vehicle/waggon/vt10.5/senator/wagen1/fenster_wagen_1_lod0.msh",
+						materials = { "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen1/fenster_lod0.msh",
 						name = "rumpf_kopf_1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -51,7 +51,48 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 3474.4672851562,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/rumpf.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen1/rumpf_lod1.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/innen.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen1/innen_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen1/fenster_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/rumpf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod1.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/rumpf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod1.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
 		},
 	},
 	metadata = {
