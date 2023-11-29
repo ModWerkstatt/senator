@@ -1,0 +1,114 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 0.2, 1.5636541843414, 3.716038942337, },
+		bbMin = { -0.2, -1.56365442276, -0.038087427616119, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 28.634042739868, 1.5636543035507, 1.8770631551743, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/vt10.5/komet/wagen1/rumpf.mtl", "vehicle/train/vt10.5/beweglich.mtl", },
+						mesh = "vehicle/train/vt10.5/komet/jacobsdreh_lod0.msh",
+						name = "jacobsdreh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.399382, 1, },
+					},
+			        {
+				        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+				        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
+				        name = "rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.587573, 0, 0.39278826117516, 1, },
+			        },
+			        {
+				        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+				        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
+				        name = "rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.587573, 0, 0.39278826117516, 1, },
+			        },
+                },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/rumpf.mtl", "vehicle/train/vt10.5/beweglich.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/jacobsdreh_lod1.msh",
+						name = "jacobsdreh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.399382, 1, },
+					},
+			        {
+				        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+				        mesh = "vehicle/train/vt10.5/senator/rad_lod1.msh",
+				        name = "rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39278826117516, 1, },
+			        },
+                },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1953,
+			yearTo = 1960,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+            name = _("drehgestell"),
+        },
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/train/vt10.5/senator/rad_lod0.msh", },
+				},
+				{
+					axles = { "vehicle/train/vt10.5/senator/rad_lod1.msh", },
+				},
+			},
+			engines = {	},
+			soundSet = {
+				horn = "",
+				name = "waggon_modern",
+			},
+			topSpeed = 33.333333333333,
+			weight = 0,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			loadSpeed = 0,
+			multipleUnitOnly = true,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

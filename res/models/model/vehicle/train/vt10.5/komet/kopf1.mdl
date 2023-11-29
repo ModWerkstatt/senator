@@ -1,0 +1,414 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 11.9213, 1.5636541843414, 3.716038942337, },
+		bbMin = { -6.176175689697, -1.56365442276, -0.038087427616119, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 12.634042739868, 1.5636543035507, 1.8770631551743, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", },
+						mesh = "vehicle/train/vt10.5/komet/kopf1/rumpf_lod0.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+        				children = {
+                            {
+						        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/drehgestell_lod0.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1544, 0, 0.39278826117516, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1544, 0, 0.39278826117516, 1, },
+					        },
+                        },
+				        name = "bogie",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302979, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer1_links_lod0.msh",
+						name = "tur1_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer1_rechts_lod0.msh",
+						name = "tur1_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_rechts_lod0.msh",
+						name = "tur2_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_links_lod0.msh",
+						name = "tur2_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/glas_lod0.msh",
+						name = "glas_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/glas_licht.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/glas_licht_lod0.msh",
+						name = "glas_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/komet/wagen1/rumpf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod0.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.21, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/innen_kopf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/innen_lod0.msh",
+						name = "innen_kopf_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kupplungskappe_lod0.msh",
+						name = "kupplungskappe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kupplungskappe_lod0.msh",
+						name = "kupplungskappe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/licht.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/licht_weiss_lod0.msh",
+						name = "licht_weiss",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/licht.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/licht_rot_lod0.msh",
+						name = "licht_rot",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/rumpf_lod1.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+        				children = {
+                            {
+						        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/drehgestell_lod1.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1544, 0, 0.39278826117516, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+						        mesh = "vehicle/train/vt10.5/senator/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1544, 0, 0.39278826117516, 1, },
+					        },
+                        },
+				        name = "bogie",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302979, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer1_links_lod1.msh",
+						name = "tur1_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer1_rechts_lod1.msh",
+						name = "tur1_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_rechts_lod1.msh",
+						name = "tur2_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_links_lod1.msh",
+						name = "tur2_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/glas.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/glas_lod0.msh",
+						name = "glas_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/glas_licht.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/glas_licht_lod0.msh",
+						name = "glas_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/komet/wagen1/rumpf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod1.msh",
+						name = "innen_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.21, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/innen_kopf.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kopf1/innen_lod0.msh",
+						name = "innen_kopf_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kupplungskappe_lod1.msh",
+						name = "kupplungskappe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/kupplungskappe_lod1.msh",
+						name = "kupplungskappe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/licht.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/licht_weiss_lod0.msh",
+						name = "licht_weiss",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/vt10.5/licht.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/licht_rot_lod0.msh",
+						name = "licht_rot",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1953,
+			yearTo = 1960,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+            name = _("senator_kopf"),
+        },
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		particleSystem = {
+			emitters = {
+				{
+					child = 1,
+					color = { 0.3, 0.3, 0.3, },
+					frequency = 40,
+					lifeTime = 0.2,
+					position = { 8.164, 0.5692, 3.7, },
+					size01 = { 0.2, 2, },
+					velocity = { 0, 0, 3, },
+				},
+				{
+					child = 1,
+					color = { 0.3, 0.3, 0.3, },
+					frequency = 40,
+					lifeTime = 0.2,
+					position = { 8.164, -0.5692, 3.7, },
+					size01 = { 0.2, 2, },
+					velocity = { 0, 0, 3, },
+				},
+				{
+					child = 1,
+					color = { 0.3, 0.3, 0.3, },
+					frequency = 40,
+					lifeTime = 0.2,
+					position = { 6.557, 0, 3.7, },
+					size01 = { 0.2, 2, },
+					velocity = { 0, 0, 3, },
+				},
+			},
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/train/vt10.5/senator/rad_lod0.msh", },
+					backBackwardParts = { 15, 17, },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					frontBackwardParts = { },
+					frontForwardParts = { 14, 16, },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = -6.15,
+						},
+					},
+				},
+				{
+					axles = { "vehicle/train/vt10.5/senator/rad_lod1.msh", },
+					backBackwardParts = { 15, 17, },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					frontBackwardParts = { },
+					frontForwardParts = { 14, 16, },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = -6.15,
+						},
+					},
+				},
+			},
+			engines = {
+				{
+					power = 294,
+					tractiveEffort = 115,
+					type = "DIESEL",
+				},
+			},
+			soundSet = {
+				horn = "vehicle/train_diesel/horn_13_freight.wav",
+				name = "train_diesel",
+			},
+			topSpeed = 33.333333333333,
+			weight = 22,
+		},
+		seatProvider = {
+			drivingLicense = "RAIL",
+			seats = {
+				{
+                    animation = "driving_upright",
+                    crew = true,
+                    forward = true,
+                    group = 0,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.9, 0, 1.8, 1, },
+                },
+
+				{
+                    animation = "sitting",
+                    group = 0,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.75, 0.1, 0.85, 1, },
+                },
+				{
+                    animation = "sitting",
+                    group = 0,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.75, -0.55, 0.85, 1, },
+                },
+				{
+                    animation = "sitting",
+                    group = 0,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.75, -1.15, 0.85, 1, },
+                },
+				{
+                    animation = "sitting",
+                    group = 0,
+                    transf = { -1, 0, 0, 0, 0,- 1, 0, 0, 0, 0, 1, 0, 0.65, 0.1, 0.85, 1, },
+                },
+				{
+                    animation = "sitting",
+                    group = 0,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, -0.55, 0.85, 1, },
+                },
+				{
+                    animation = "sitting",
+                    group = 0,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, -1.15, 0.85, 1, },
+                },
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 6,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			loadSpeed = 4,
+			multipleUnitOnly = true,
+			reversible = true,
+		},
+	},
+	version = 1,
+}
+end
