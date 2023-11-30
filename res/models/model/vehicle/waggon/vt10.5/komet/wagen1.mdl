@@ -64,7 +64,7 @@ return {
 					},
 					{
 						materials = { "vehicle/waggon/vt10.5/komet/wagen1/innen.mtl", },
-						mesh = "vehicle/waggon/vt10.5/senator/wagen1/innen_lod0.msh",
+						mesh = "vehicle/waggon/vt10.5/senator/wagen1/innen_lod1.msh",
 						name = "rumpf_kopf_1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -74,18 +74,6 @@ return {
 						name = "rumpf_kopf_1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					{
-						materials = { "vehicle/waggon/vt10.5/komet/wagen1/rumpf.mtl", },
-						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod1.msh",
-						name = "innen_kopf_1",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/waggon/vt10.5/komet/wagen1/rumpf.mtl", },
-						mesh = "vehicle/train/vt10.5/senator/balgadapter_lod1.msh",
-						name = "innen_kopf_1",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.0, 0, 0, 1, },
-					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -93,6 +81,29 @@ return {
 			static = false,
 			visibleFrom = 100,
 			visibleTo = 300,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/vt10.5/komet/wagen1/rumpf.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen1/rumpf_lod2.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/vt10.5/komet/wagen1/innen.mtl", },
+						mesh = "vehicle/waggon/vt10.5/senator/wagen1/innen_lod2.msh",
+						name = "rumpf_kopf_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1300,
 		},
 	},
 	metadata = {

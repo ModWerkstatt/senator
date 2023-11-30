@@ -58,6 +58,29 @@ return {
 			visibleFrom = 100,
 			visibleTo = 300,
 		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/vt10.5/senator_1/wagen1/rumpf.mtl", "vehicle/train/vt10.5/beweglich.mtl", },
+						mesh = "vehicle/train/vt10.5/senator/jacobsdreh_lod2.msh",
+						name = "jacobsdreh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.399382, 1, },
+					},
+			        {
+				        materials = { "vehicle/train/vt10.5/beweglich.mtl", },
+				        mesh = "vehicle/train/vt10.5/senator/rad_lod2.msh",
+				        name = "rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39278826117516, 1, },
+			        },
+                },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 800,
+		},
 	},
 	metadata = {
 		availability = {
@@ -110,6 +133,9 @@ return {
 							position = 0.2,
 						},
 					},
+				},
+				{
+					axles = { "vehicle/train/vt10.5/senator/rad_lod2.msh", },
 				},
 			},
 			engines = {	},
