@@ -9,7 +9,7 @@ return {
         { name = "vehicle/train/vt10.5/senator/jakobs.mdl", forward = true },
         { name = "vehicle/waggon/vt10.5/senator_2/wagen3.mdl", forward = true },
         { name = "vehicle/train/vt10.5/senator/jakobs.mdl", forward = true },
-        { name = "vehicle/waggon/vt10.5/senator_2/wagen1.mdl", forward = true },
+        { name = "vehicle/waggon/vt10.5/senator_2/wagen1a.mdl", forward = true },
         { name = "vehicle/train/vt10.5/senator/jakobs.mdl", forward = true },
         { name = "vehicle/waggon/vt10.5/senator_2/wagen5.mdl", forward = true },
         { name = "vehicle/train/vt10.5/senator/jakobs.mdl", forward = true },

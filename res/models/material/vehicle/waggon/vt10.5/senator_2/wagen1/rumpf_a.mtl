@@ -1,0 +1,41 @@
+function data()
+return {
+	params = {
+		color_blend = {
+			albedoScale = 2.9066771532639,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/waggon/vt10.5/senator_2/wagen12a_albedo.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_cblend = {
+			fileName = "models/vehicle/waggon/vt10.5/senator_2/wagen12_cblend_dirt_rust.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/waggon/vt10.5/senator_2/wagen12a_metal_gloss_ao.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/vehicle/waggon/vt10.5/senator_2/wagen12_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = 0,
+			units = 0,
+		},
+		two_sided = {
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND",
+}
+end

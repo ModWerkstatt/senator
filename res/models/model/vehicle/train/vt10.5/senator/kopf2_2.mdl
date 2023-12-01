@@ -134,13 +134,13 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/vt10.5/senator_2/kopf2_2.mtl", },
+						materials = { "vehicle/train/vt10.5/senator_2/kopf1_2.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kupplungskappe_lod0.msh",
 						name = "kupplungskappe",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/vt10.5/senator_2/kopf2_2.mtl", },
+						materials = { "vehicle/train/vt10.5/senator_2/kopf1_2.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kupplungskappe_lod0.msh",
 						name = "kupplungskappe",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
