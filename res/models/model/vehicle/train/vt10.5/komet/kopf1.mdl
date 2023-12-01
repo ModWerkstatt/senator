@@ -52,18 +52,70 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
+                        materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer1_rechts_lod0.msh",
 						name = "tur1_rechts",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_rechts_lod0.msh",
 						name = "tur2_rechts",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_links_lod0.msh",
 						name = "tur2_links",
@@ -171,12 +223,64 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_rechts_lod1.msh",
 						name = "tur2_rechts",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_links_lod1.msh",
 						name = "tur2_links",
@@ -248,12 +352,64 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_rechts_lod2.msh",
 						name = "tur2_rechts",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/komet/kopf1.mtl", "vehicle/train/vt10.5/glas.mtl", },
 						mesh = "vehicle/train/vt10.5/senator/kopf1/tuer2_links_lod2.msh",
 						name = "tur2_links",

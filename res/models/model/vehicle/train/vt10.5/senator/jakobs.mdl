@@ -115,7 +115,7 @@ return {
 						{
 							group = 0,
 							offset = 0,
-							position = 0.2,
+							position = 0.1,
 						},
 					},
 				},
@@ -130,7 +130,7 @@ return {
 						{
 							group = 0,
 							offset = 0,
-							position = 0.2,
+							position = 0.1,
 						},
 					},
 				},

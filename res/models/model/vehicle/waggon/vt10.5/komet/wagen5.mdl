@@ -34,12 +34,64 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/glas.mtl", "vehicle/waggon/vt10.5/komet/wagen5/rumpf.mtl", },
 						mesh = "vehicle/waggon/vt10.5/senator/wagen5/tuer_links_lod0.msh",
 						name = "rumpf_kopf_1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = {  "vehicle/train/vt10.5/glas.mtl", "vehicle/waggon/vt10.5/komet/wagen5/rumpf.mtl", },
 						mesh = "vehicle/waggon/vt10.5/senator/wagen5/tuer_rechts_lod0.msh",
 						name = "rumpf_kopf_1",
@@ -87,12 +139,64 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/glas.mtl", "vehicle/waggon/vt10.5/komet/wagen5/rumpf.mtl", },
 						mesh = "vehicle/waggon/vt10.5/senator/wagen5/tuer_links_lod1.msh",
 						name = "rumpf_kopf_1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = {  "vehicle/train/vt10.5/glas.mtl", "vehicle/waggon/vt10.5/komet/wagen5/rumpf.mtl", },
 						mesh = "vehicle/waggon/vt10.5/senator/wagen5/tuer_rechts_lod1.msh",
 						name = "rumpf_kopf_1",
@@ -122,12 +226,64 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_r_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = { "vehicle/train/vt10.5/glas.mtl", "vehicle/waggon/vt10.5/komet/wagen5/rumpf.mtl", },
 						mesh = "vehicle/waggon/vt10.5/senator/wagen5/tuer_links_lod2.msh",
 						name = "rumpf_kopf_1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						animations = {
+							close_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+                            close_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_close.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_all_doors = {
+								params = {
+									id = "vehicle/train/vt10.5/door_l_open.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
 						materials = {  "vehicle/train/vt10.5/glas.mtl", "vehicle/waggon/vt10.5/komet/wagen5/rumpf.mtl", },
 						mesh = "vehicle/waggon/vt10.5/senator/wagen5/tuer_rechts_lod2.msh",
 						name = "rumpf_kopf_1",
