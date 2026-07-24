@@ -1,0 +1,22 @@
+{
+    "name": "DB VT 10.5 Senator/Komet",
+    "summary": "Two diesel-electric multiple unit for express traffic at day and night.",
+    "description": "Two articulated trains from the Deutsche Bundesbahn were referred to as VT 10.5, one of which was purchased together. VT 10 501 Senator was intended for daytime use, VT 10 551 Komet for nighttime use. A third train for the Deutsche Bundespost was no longer built.\nBoth multiple units were equipped with two motors in the power cars for the drive and two additional small motors for the power supply. Both trains were made of aluminum alloys, were quite maintenance-sensitive and were only in use for a very short time.",
+    "localization" : {
+        "de": {
+            "name": "VT 10.5 Senator/Komet",
+            "summary": "Zwei dieselelektrische Triebwagen für den Schnellverkehr tags und nachts.",
+            "description": "Als VT 10.5 wurden zwei Gliederzüge der Deutschen Bundesbahn bezeichnet, die gemeinsam beschafft wurden in je einem Exemplar. VT 10 501 Senator war für den Tageinsatz vorgesehen, VT 10 551 Komet für die Nacht. Ein dritter Zug für die Deutsche Bundespost wurde nicht mehr realisiert.\nBeide Triebzügen waren in den Triebköpfen mit jeweils 2 Motoren für den Antrieb ausgerüstet sowie je zwei weiteren kleinen Motoren für die Stromversorgung. Beide Zügen waren aus Aluminiumlegierungen hergestellt, waren recht wartungsanfällig und jeweils nur recht kurze Zeit im Einsatz."
+        }
+    },
+    "authors": [
+        {
+            "name": "Modwerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Multiple Unit"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/vt-10.5"
+}

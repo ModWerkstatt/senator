@@ -1,0 +1,181 @@
+function data()
+return {
+		boundingInfo = {
+			bbMax = { 0.20000000298023223876953125, 1.5636541843414306640625, 3.7160389423370361328125, },
+			bbMin = { -0.20000000298023223876953125, -1.563654422760009765625, -0.038087427616119384765625, },
+		},
+		collider = {
+			params = {
+				halfExtents = { 28.6340427398681640625, 1.56365430355072021484375, 1.87706315517425537109375, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{
+				node = {
+					children = {
+						{
+							materials = { "mat/komet/wagen1/rumpf.mtl", "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/jacobsdreh_lod0.msh",
+							name = "jacobsdreh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39938199520111083984375, 1, },
+						},
+						{
+							materials = { "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/rad_lod0.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
+						},
+						{
+							materials = { "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/rad_lod0.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "/vehicle/waggon/vt10.5/senator_1/wagen1/mat/rumpf.mtl", "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/jacobsdreh_lod1.msh",
+							name = "jacobsdreh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39938199520111083984375, 1, },
+						},
+						{
+							materials = { "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/rad_lod1.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
+						},
+						{
+							materials = { "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/rad_lod1.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "/vehicle/waggon/vt10.5/senator_1/wagen1/mat/rumpf.mtl", "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/jacobsdreh_lod2.msh",
+							name = "jacobsdreh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39938199520111083984375, 1, },
+						},
+						{
+							materials = { "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/rad_lod2.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
+						},
+						{
+							materials = { "mat/shared/beweglich.mtl", },
+							mesh = "msh/shared/rad_lod2.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 800,
+			},
+		},
+		metadata = {
+			availability = {
+				yearFrom = 1953,
+				yearTo = 1960,
+			},
+			cost = {
+				price = -1,
+			},
+			description = {
+				name = _("drehgestell"),
+			},
+			emissions = {
+				noise = {
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = {
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = {
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 33.333332061767578125,
+				weight = 0,
+			},
+			maintenance = {
+				lifespan = 21915,
+				runningCosts = -1,
+			},
+			railVehicle = {
+				config = {
+					axles = { "rad", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = {
+				soundSet = {
+					name = "::/vehicle/waggon/shared/sound/waggon_modern.snd",
+				},
+			},
+			transformatorConfig = {
+				skipFromLod = 1,
+				transformator = {
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = {
+				carrier = "RAIL",
+				compartments = {
+					{
+						loadConfigs = {
+							{
+								cargoEntry = {
+									capacity = 4,
+									cargoTypeSet = {
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				loadSpeed = 0,
+				multipleUnitOnly = true,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,0 +1,64 @@
+function data()
+return {
+		__version = "",
+		order = 0,
+		params = {
+			color_blend = {
+				fragmentProperties = {
+					{
+						albedoScales = { 0, 0, },
+						colors = {
+							{ -1, -1, -1, },
+							{ -1, -1, -1, },
+						},
+					},
+				},
+			},
+			light_receiver = {
+				fragmentProperties = {
+					{
+						isLegacyMaterial = false,
+						lightMask = 2,
+					},
+				},
+			},
+			map_albedo = {
+				fragmentSamplers = {
+					albedoTex = {
+						fileName = "tex/kopf1_albedo.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_cblend = {
+				fragmentSamplers = {
+					cblendTex = {
+						fileName = "/vehicle/car/vt10.5/senator_1/mat/tex/rumpf_cblend_dirt_rust.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_metal_gloss_ao = {
+				fragmentSamplers = {
+					metalGlossAoTex = {
+						fileName = "tex/kopf1_metal_gloss_ao.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_normal = {
+				fragmentSamplers = {
+					normalTex = {
+						fileName = "tex/kopf1_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+		},
+		type = "PHYSICAL_NRML_MAP_CBLEND",
+	}
+end
