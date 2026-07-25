@@ -18,7 +18,7 @@ return {
 						{
 							materials = { "mat/senator1/kopf1.mtl", },
 							mesh = "msh/senator/kopf1/rumpf_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -26,35 +26,35 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod0.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302978515625, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_links_lod0.msh",
-							name = "tur1_links",
+							name = "tuer1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_rechts_lod0.msh",
-							name = "tur1_rechts",
+							name = "tuer1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -86,7 +86,7 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_rechts_lod0.msh",
-							name = "tur2_rechts",
+							name = "tuer2_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -118,7 +118,7 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_links_lod0.msh",
-							name = "tur2_links",
+							name = "tuer2_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -136,13 +136,13 @@ return {
 						{
 							materials = { "mat/senator1/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
-							name = "innen_kopf_1",
+							name = "balgadapter",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.21000003814697265625, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/senator/kopf1/innen_lod0.msh",
-							name = "innen_kopf_1",
+							name = "interior",
 							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -164,7 +164,7 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", },
 							mesh = "msh/shared/kupplungskappe_lod0.msh",
-							name = "kupplungskappe",
+							name = "kupplungskappe1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -186,7 +186,7 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", },
 							mesh = "msh/shared/kupplungskappe_lod0.msh",
-							name = "kupplungskappe",
+							name = "kupplungskappe2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -208,7 +208,7 @@ return {
 							},
 							materials = { "mat/shared/licht.mtl", },
 							mesh = "msh/senator/shared/licht_weiss_lod0.msh",
-							name = "licht_weiss",
+							name = "headlights_fwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -230,7 +230,7 @@ return {
 							},
 							materials = { "mat/shared/licht.mtl", },
 							mesh = "msh/senator/shared/licht_rot_lod0.msh",
-							name = "licht_rot",
+							name = "taillights_bwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -246,7 +246,7 @@ return {
 						{
 							materials = { "mat/senator1/kopf1.mtl", },
 							mesh = "msh/shared/kopf1/rumpf_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -254,35 +254,35 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod1.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302978515625, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_links_lod1.msh",
-							name = "tur1_links",
+							name = "tuer1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_rechts_lod1.msh",
-							name = "tur1_rechts",
+							name = "tuer1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -314,7 +314,7 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_rechts_lod1.msh",
-							name = "tur2_rechts",
+							name = "tuer2_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -346,7 +346,7 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_links_lod1.msh",
-							name = "tur2_links",
+							name = "tuer2_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -358,7 +358,7 @@ return {
 						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/senator/kopf1/innen_lod1.msh",
-							name = "innen_kopf_1",
+							name = "interior",
 							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -374,7 +374,7 @@ return {
 						{
 							materials = { "mat/senator1/kopf1.mtl", },
 							mesh = "msh/shared/kopf1/rumpf_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -382,35 +382,35 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod2.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302978515625, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_links_lod2.msh",
-							name = "tur1_links",
+							name = "tuer1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_rechts_lod2.msh",
-							name = "tur1_rechts",
+							name = "tuer1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -442,7 +442,7 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_rechts_lod2.msh",
-							name = "tur2_rechts",
+							name = "tuer2_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -474,13 +474,13 @@ return {
 							},
 							materials = { "mat/senator1/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_links_lod2.msh",
-							name = "tur2_links",
+							name = "tuer2_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/senator/kopf1/innen_lod2.msh",
-							name = "innen_kopf_1",
+							name = "interior",
 							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -624,7 +624,7 @@ return {
 			particleSystem = {
 				emitters = {
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -668,7 +668,7 @@ return {
 						},
 					},
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -712,7 +712,7 @@ return {
 						},
 					},
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -833,7 +833,7 @@ return {
 				},
 			},
 			transformatorConfig = {
-				skipFromLod = 1,
+				skipFromLod = 2,
 				transformator = {
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
@@ -864,7 +864,6 @@ return {
 				departureDelay = 2100,
 				engineTags = { "TRAIN", },
 				loadSpeed = 4,
-				multipleUnitOnly = true,
 				reversible = true,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

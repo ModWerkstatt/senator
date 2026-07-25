@@ -122,7 +122,7 @@ return {
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
-							materials = { "mat/senator1/wagen1/rumpf.mtl", },
+							materials = { "mat/senator1/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
 							name = "balgadapter",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.21000003814697265625, 0, 0, 1, },
@@ -887,7 +887,7 @@ return {
 				},
 			},
 			transformatorConfig = {
-				skipFromLod = 1,
+				skipFromLod = 2,
 				transformator = {
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
@@ -918,7 +918,7 @@ return {
 				departureDelay = 2100,
 				engineTags = { "TRAIN", },
 				loadSpeed = 4,
-				multipleUnitOnly = true,
+				filterTags = { },
 				reversible = true,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

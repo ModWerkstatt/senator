@@ -34,7 +34,7 @@ return {
 			map_cblend = {
 				fragmentSamplers = {
 					cblendTex = {
-						fileName = "/vehicle/car/vt10.5/senator_2/mat/tex/rumpf_cblend_dirt_rust.dds",
+						fileName = "tex/rumpf_cblend_dirt_rust.dds",
 						redGreen = true,
 						type = "TWOD",
 					},

@@ -18,19 +18,19 @@ return {
 						{ 
 							materials = { "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/rumpf_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/senator1/innen3.mtl", },
 							mesh = "msh/senator/wagen5/innen_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/shared/glas.mtl", },
 							mesh = "msh/senator/wagen5/fenster_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "fenster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -62,7 +62,7 @@ return {
 							},
 							materials = { "mat/shared/glas.mtl", "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/tuer_links_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "tuer_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -94,19 +94,19 @@ return {
 							},
 							materials = { "mat/shared/glas.mtl", "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/tuer_rechts_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "tuer_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/senator1/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
-							name = "innen_kopf_1",
+							name = "balgadapter1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/senator1/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
-							name = "innen_kopf_1",
+							name = "balgadapter2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6, 0, 0, 1, },
 						},
 					},
@@ -122,19 +122,19 @@ return {
 						{ 
 							materials = { "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/rumpf_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/senator1/innen3.mtl", },
 							mesh = "msh/senator/wagen5/innen_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/shared/glas.mtl", },
 							mesh = "msh/senator/wagen5/fenster_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "fenster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -166,7 +166,7 @@ return {
 							},
 							materials = { "mat/shared/glas.mtl", "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/tuer_links_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "tuer_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -198,7 +198,7 @@ return {
 							},
 							materials = { "mat/shared/glas.mtl", "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/tuer_rechts_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "tuer_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -214,13 +214,13 @@ return {
 						{ 
 							materials = { "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/rumpf_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/senator1/innen3.mtl", },
 							mesh = "msh/senator/wagen5/innen_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -252,7 +252,7 @@ return {
 							},
 							materials = { "mat/shared/glas.mtl", "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/tuer_links_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "tuer_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -284,7 +284,7 @@ return {
 							},
 							materials = { "mat/shared/glas.mtl", "mat/senator1/wagen3.mtl", },
 							mesh = "msh/senator/wagen5/tuer_rechts_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "tuer_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -509,7 +509,7 @@ return {
 				},
 			},
 			transformatorConfig = { 
-				skipFromLod = 1,
+				skipFromLod = 2,
 				transformator = { 
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
