@@ -1,7 +1,7 @@
 {
 	"en": {
 
-        "vt10.5_menu": "VT 10.5 Senator/Komet",
+        "menu_vt10_5": "VT 10.5 Senator/Komet",
 
         "senator_1_name": "VT 10.5 Senator",
         "senator_2_name": "VT 10.5 Senator",
@@ -25,7 +25,7 @@
 	},
 	"de": {
 
-        "vt10.5_menu": "VT 10.5 Senator/Komet",
+        "menu_vt10_5": "VT 10.5 Senator/Komet",
 
         "senator_1_name": "VT 10.501 Senator",
         "senator_2_name": "VT 10.501 Senator",
