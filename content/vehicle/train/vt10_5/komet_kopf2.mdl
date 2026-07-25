@@ -16,9 +16,9 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "mat/komet/kopf/kopf2.mtl", },
+							materials = { "mat/komet/kopf2.mtl", },
 							mesh = "msh/komet/rumpf2_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -26,23 +26,23 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod0.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302978515625, 0, 0, 1, },
 						},
 						{
@@ -72,7 +72,7 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf2.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer_links_lod0.msh",
 							name = "tur1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -104,7 +104,7 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf2.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer_rechts_lod0.msh",
 							name = "tur1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -117,20 +117,20 @@ return {
 						},
 						{
 							materials = { "mat/shared/glas_licht.mtl", },
-							mesh = "msh/senator/kopf2/glas_licht_lod0.msh",
+							mesh = "msh/shared/kopf1/glas_licht_lod0.msh",
 							name = "glas_licht",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
-							materials = { "mat/senator_1/wagen1/rumpf.mtl", },
+							materials = { "mat/komet/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
-							name = "innen_kopf_1",
+							name = "balgadapter1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.21000003814697265625, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/shared/kopf2/innen_lod0.msh",
-							name = "innen_kopf_1",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -150,9 +150,9 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", },
+							materials = { "mat/komet/kopf1.mtl", },
 							mesh = "msh/shared/kupplungskappe_lod0.msh",
-							name = "kupplungskappe",
+							name = "kupplungskappe1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -172,9 +172,9 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", },
+							materials = { "mat/komet/kopf1.mtl", },
 							mesh = "msh/shared/kupplungskappe_lod0.msh",
-							name = "kupplungskappe",
+							name = "kupplungskappe2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -232,9 +232,9 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "mat/komet/kopf/kopf2.mtl", },
+							materials = { "mat/komet/kopf2.mtl", },
 							mesh = "msh/shared/kopf2/rumpf_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -242,23 +242,23 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod1.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302978515625, 0, 0, 1, },
 						},
 						{
@@ -288,7 +288,7 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf2.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer_links_lod1.msh",
 							name = "tur1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -320,7 +320,7 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf2.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer_rechts_lod1.msh",
 							name = "tur1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -334,7 +334,7 @@ return {
 						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/shared/kopf2/innen_lod1.msh",
-							name = "innen_kopf_1",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -348,9 +348,9 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "mat/komet/kopf/kopf2.mtl", },
+							materials = { "mat/komet/kopf2.mtl", },
 							mesh = "msh/shared/kopf2/rumpf_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -358,23 +358,23 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod2.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2059879302978515625, 0, 0, 1, },
 						},
 						{
@@ -404,7 +404,7 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf2.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer_links_lod2.msh",
 							name = "tur1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -436,7 +436,7 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf2.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf2.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer_rechts_lod2.msh",
 							name = "tur1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -444,7 +444,7 @@ return {
 						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/shared/kopf2/innen_lod2.msh",
-							name = "innen_kopf_1",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -588,7 +588,7 @@ return {
 			particleSystem = {
 				emitters = {
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -632,7 +632,7 @@ return {
 						},
 					},
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -676,7 +676,7 @@ return {
 						},
 					},
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -723,7 +723,7 @@ return {
 			},
 			railVehicle = {
 				config = {
-					axles = { "rad", },
+					axles = { "a1", "a2", },
 					fakeBogies = {
 						{
 							{

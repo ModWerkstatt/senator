@@ -1,206 +1,206 @@
 function data()
-return { 
-		boundingInfo = { 
+return {
+		boundingInfo = {
 			bbMax = { 21.17, 4.3602, 7.45, },
 			bbMin = { -10, -4.3602, -3.63271, },
 		},
-		collider = { 
-			params = { 
+		collider = {
+			params = {
 				halfExtents = { 12.634, 1.56365, 1.87706, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			type = "BOX",
 		},
 		lods = {
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", },
 							mesh = "msh/komet/rumpf1_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod0.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1544, 0, 0.392788, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1544, 0, 0.392788, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.20599, 0, 0, 1, },
 						},
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_links_lod0.msh",
 							name = "tur1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_rechts_lod0.msh",
 							name = "tur1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								close_all_doors = { 
-									params = { 
+						{
+							animations = {
+								close_all_doors = {
+									params = {
 										id = "ani/door_r_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								close_doors_right = { 
-									params = { 
+								close_doors_right = {
+									params = {
 										id = "ani/door_r_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_all_doors = { 
-									params = { 
+								open_all_doors = {
+									params = {
 										id = "ani/door_r_open.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_doors_right = { 
-									params = { 
+								open_doors_right = {
+									params = {
 										id = "ani/door_r_open.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_rechts_lod0.msh",
 							name = "tur2_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								close_all_doors = { 
-									params = { 
+						{
+							animations = {
+								close_all_doors = {
+									params = {
 										id = "ani/door_l_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								close_doors_left = { 
-									params = { 
+								close_doors_left = {
+									params = {
 										id = "ani/door_l_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_all_doors = { 
-									params = { 
+								open_all_doors = {
+									params = {
 										id = "ani/door_l_open.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_doors_left = { 
-									params = { 
+								open_doors_left = {
+									params = {
 										id = "ani/door_l_open.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_links_lod0.msh",
 							name = "tur2_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/shared/glas.mtl", },
 							mesh = "msh/shared/kopf1/glas_lod0.msh",
 							name = "glas_kopf_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/shared/glas_licht.mtl", },
 							mesh = "msh/shared/kopf1/glas_licht_lod0.msh",
 							name = "glas_licht",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							materials = { "mat/komet/wagen1/rumpf.mtl", },
+						{
+							materials = { "mat/komet/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
-							name = "innen_kopf_1",
+							name = "balgadapter",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.21, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/shared/kopf1/innen_lod0.msh",
 							name = "interior",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								front_forward_parts_off = { 
+						{
+							animations = {
+								front_forward_parts_off = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								front_forward_parts_on = { 
+								front_forward_parts_on = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", },
+							materials = { "mat/komet/kopf1.mtl", },
 							mesh = "msh/shared/kupplungskappe_lod0.msh",
-							name = "kupplungskappe",
+							name = "kupplungskappe1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
+						{
+							animations = {
+								back_backward_parts_off = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_backward_parts_on = { 
+								back_backward_parts_on = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", },
+							materials = { "mat/komet/kopf1.mtl", },
 							mesh = "msh/shared/kupplungskappe_lod0.msh",
-							name = "kupplungskappe",
+							name = "kupplungskappe2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								front_forward_parts_off = { 
+						{
+							animations = {
+								front_forward_parts_off = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								front_forward_parts_on = { 
+								front_forward_parts_on = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
@@ -211,18 +211,18 @@ return {
 							name = "headlights_fwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
+						{
+							animations = {
+								back_backward_parts_off = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_backward_parts_on = { 
+								back_backward_parts_on = {
 									interpolation = "NEAREST",
-									params = { 
+									params = {
 										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
@@ -240,122 +240,122 @@ return {
 				visibleFrom = 0,
 				visibleTo = 100,
 			},
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", },
 							mesh = "msh/shared/kopf1/rumpf_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod1.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1544, 0, 0.392788, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1544, 0, 0.392788, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.20599, 0, 0, 1, },
 						},
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_links_lod1.msh",
 							name = "tur1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_rechts_lod1.msh",
 							name = "tur1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								close_all_doors = { 
-									params = { 
+						{
+							animations = {
+								close_all_doors = {
+									params = {
 										id = "ani/door_r_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								close_doors_right = { 
-									params = { 
+								close_doors_right = {
+									params = {
 										id = "ani/door_r_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_all_doors = { 
-									params = { 
+								open_all_doors = {
+									params = {
 										id = "ani/door_r_open.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_doors_right = { 
-									params = { 
+								open_doors_right = {
+									params = {
 										id = "ani/door_r_open.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_rechts_lod1.msh",
 							name = "tur2_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								close_all_doors = { 
-									params = { 
+						{
+							animations = {
+								close_all_doors = {
+									params = {
 										id = "ani/door_l_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								close_doors_left = { 
-									params = { 
+								close_doors_left = {
+									params = {
 										id = "ani/door_l_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_all_doors = { 
-									params = { 
+								open_all_doors = {
+									params = {
 										id = "ani/door_l_open.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_doors_left = { 
-									params = { 
+								open_doors_left = {
+									params = {
 										id = "ani/door_l_open.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_links_lod1.msh",
 							name = "tur2_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/shared/glas.mtl", },
 							mesh = "msh/shared/kopf1/glas_lod0.msh",
 							name = "glas_kopf_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/shared/kopf1/innen_lod1.msh",
 							name = "interior",
@@ -368,116 +368,116 @@ return {
 				visibleFrom = 100,
 				visibleTo = 300,
 			},
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", },
 							mesh = "msh/shared/kopf1/rumpf_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							children = {
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/drehgestell_lod2.msh",
-									name = "drehgestell",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1544, 0, 0.392788, 1, },
 								},
-								{ 
+								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1544, 0, 0.392788, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.20599, 0, 0, 1, },
 						},
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_links_lod2.msh",
 							name = "tur1_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+						{
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer1_rechts_lod2.msh",
 							name = "tur1_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								close_all_doors = { 
-									params = { 
+						{
+							animations = {
+								close_all_doors = {
+									params = {
 										id = "ani/door_r_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								close_doors_right = { 
-									params = { 
+								close_doors_right = {
+									params = {
 										id = "ani/door_r_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_all_doors = { 
-									params = { 
+								open_all_doors = {
+									params = {
 										id = "ani/door_r_open.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_doors_right = { 
-									params = { 
+								open_doors_right = {
+									params = {
 										id = "ani/door_r_open.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_rechts_lod2.msh",
 							name = "tur2_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							animations = { 
-								close_all_doors = { 
-									params = { 
+						{
+							animations = {
+								close_all_doors = {
+									params = {
 										id = "ani/door_l_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								close_doors_left = { 
-									params = { 
+								close_doors_left = {
+									params = {
 										id = "ani/door_l_close.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_all_doors = { 
-									params = { 
+								open_all_doors = {
+									params = {
 										id = "ani/door_l_open.ani",
 									},
 									type = "FILE_REF",
 								},
-								open_doors_left = { 
-									params = { 
+								open_doors_left = {
+									params = {
 										id = "ani/door_l_open.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mat/komet/kopf/kopf1.mtl", "mat/shared/glas.mtl", },
+							materials = { "mat/komet/kopf1.mtl", "mat/shared/glas.mtl", },
 							mesh = "msh/shared/tuer2_links_lod2.msh",
 							name = "tur2_links",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/shared/innen_kopf.mtl", },
 							mesh = "msh/shared/kopf1/innen_lod2.msh",
 							name = "interior",
@@ -491,37 +491,37 @@ return {
 				visibleTo = 1300,
 			},
 		},
-		metadata = { 
-			availability = { 
+		metadata = {
+			availability = {
 				yearFrom = 1953,
 				yearTo = 1960,
 			},
-			cost = { 
+			cost = {
 				price = -1,
 			},
-			description = { 
+			description = {
 				name = _("senator_kopf"),
 			},
-			emissions = { 
-				noise = { 
+			emissions = {
+				noise = {
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
-				pollution = { 
+				pollution = {
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
 			},
-			extent = { 
+			extent = {
 				bbMax = { 11.9213, 1.56365, 3.71604, },
 				bbMin = { -6.17618, -1.56365, -0.0380874, },
 			},
-			landVehicle = { 
+			landVehicle = {
 				brakeDeceleration = 2.5,
 				engines = {
-					{ 
+					{
 						power = 294,
 						tractiveEffort = 115,
 						type = "DIESEL",
@@ -532,9 +532,9 @@ return {
 				weightEmpty = 22000,
 				weightMaxPayload = 0,
 			},
-			lightSourceList = { 
+			lightSourceList = {
 				lights = {
-					{ 
+					{
 						angleMin = 5,
 						color = { 1, 0.926, 0.58, },
 						fadeOutStart = 1400,
@@ -550,7 +550,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{ 
+					{
 						angleMin = 5,
 						color = { 1, 0.926, 0.58, },
 						fadeOutStart = 1400,
@@ -566,7 +566,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{ 
+					{
 						angleMin = 5,
 						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
@@ -582,7 +582,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{ 
+					{
 						angleMin = 5,
 						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
@@ -598,7 +598,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{ 
+					{
 						angleMax = 89,
 						angleMin = 9,
 						color = { 1, 0.926131, 0.580392, },
@@ -618,190 +618,190 @@ return {
 					},
 				},
 			},
-			maintenance = { 
+			maintenance = {
 				lifespan = 21915,
 				runningCosts = -1,
 			},
-			particleSystem = { 
+			particleSystem = {
 				emitters = {
-					{ 
-						child = "rumpf_kopf_1",
-						colorOverLifeTime = { 
+					{
+						child = "body",
+						colorOverLifeTime = {
 							curve = {
-								{ 
+								{
 									easing = "Linear",
 									time = 1,
 									value = { 0.3, 0.3, 0.3, },
 								},
 							},
 						},
-						frequency = { 
+						frequency = {
 							value = 40,
 						},
-						lifeTime = { 
-							randomMinMax = { 
+						lifeTime = {
+							randomMinMax = {
 								max = 0.2,
 								min = 0.1,
 							},
 						},
 						particleId = "",
 						position = { 8.164, 0.5692, 3.7, },
-						shape = { 
-							point = { 
+						shape = {
+							point = {
 								maxDir = 0.8,
 							},
 						},
-						sizeOverLifeTime = { 
+						sizeOverLifeTime = {
 							curve = {
-								{ 
+								{
 									easing = "Linear",
 									time = 0,
-									value = { 
+									value = {
 										value = 0.2,
 									},
 								},
-								{ 
+								{
 									easing = "EaseOutSqrt",
 									time = 4,
-									value = { 
+									value = {
 										value = 2,
 									},
 								},
 							},
 						},
-						velocity = { 
+						velocity = {
 							value = { 0, 0, 3, },
 						},
-						velocityByDirection = { 
+						velocityByDirection = {
 							value = 0,
 						},
 					},
-					{ 
-						child = "rumpf_kopf_1",
-						colorOverLifeTime = { 
+					{
+						child = "body",
+						colorOverLifeTime = {
 							curve = {
-								{ 
+								{
 									easing = "Linear",
 									time = 1,
 									value = { 0.3, 0.3, 0.3, },
 								},
 							},
 						},
-						frequency = { 
+						frequency = {
 							value = 40,
 						},
-						lifeTime = { 
-							randomMinMax = { 
+						lifeTime = {
+							randomMinMax = {
 								max = 0.2,
 								min = 0.1,
 							},
 						},
 						particleId = "",
 						position = { 8.164, -0.5692, 3.7, },
-						shape = { 
-							point = { 
+						shape = {
+							point = {
 								maxDir = 0.8,
 							},
 						},
-						sizeOverLifeTime = { 
+						sizeOverLifeTime = {
 							curve = {
-								{ 
+								{
 									easing = "Linear",
 									time = 0,
-									value = { 
+									value = {
 										value = 0.2,
 									},
 								},
-								{ 
+								{
 									easing = "EaseOutSqrt",
 									time = 4,
-									value = { 
+									value = {
 										value = 2,
 									},
 								},
 							},
 						},
-						velocity = { 
+						velocity = {
 							value = { 0, 0, 3, },
 						},
-						velocityByDirection = { 
+						velocityByDirection = {
 							value = 0,
 						},
 					},
-					{ 
-						child = "rumpf_kopf_1",
-						colorOverLifeTime = { 
+					{
+						child = "body",
+						colorOverLifeTime = {
 							curve = {
-								{ 
+								{
 									easing = "Linear",
 									time = 1,
 									value = { 0.3, 0.3, 0.3, },
 								},
 							},
 						},
-						frequency = { 
+						frequency = {
 							value = 40,
 						},
-						lifeTime = { 
-							randomMinMax = { 
+						lifeTime = {
+							randomMinMax = {
 								max = 0.2,
 								min = 0.1,
 							},
 						},
 						particleId = "",
 						position = { 6.557, 0, 3.7, },
-						shape = { 
-							point = { 
+						shape = {
+							point = {
 								maxDir = 0.8,
 							},
 						},
-						sizeOverLifeTime = { 
+						sizeOverLifeTime = {
 							curve = {
-								{ 
+								{
 									easing = "Linear",
 									time = 0,
-									value = { 
+									value = {
 										value = 0.2,
 									},
 								},
-								{ 
+								{
 									easing = "EaseOutSqrt",
 									time = 4,
-									value = { 
+									value = {
 										value = 2,
 									},
 								},
 							},
 						},
-						velocity = { 
+						velocity = {
 							value = { 0, 0, 3, },
 						},
-						velocityByDirection = { 
+						velocityByDirection = {
 							value = 0,
 						},
 					},
 				},
 			},
-			railVehicle = { 
-				config = { 
-					axles = { "rad", },
+			railVehicle = {
+				config = {
+					axles = { "a1", "a2", },
 					fakeBogies = {
 						{
-							{ 
+							{
 								group = "RootNode",
 								offset = 0,
 								position = -6.15,
 							},
 						},
 						{
-							{ 
+							{
 								group = "RootNode",
 								offset = 0,
 								position = -6.15,
 							},
 						},
 						{
-							{ 
+							{
 								group = "RootNode",
 								offset = 0,
 								position = -6.15,
@@ -810,73 +810,73 @@ return {
 					},
 				},
 			},
-			seatProvider = { 
+			seatProvider = {
 				crewModels = { },
 				drivingLicense = "RAIL",
 				seats = {
-					{ 
+					{
 						animation = "driving_upright",
 						crew = true,
 						group = "RootNode",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.9, 0, 1.8, 1, },
 					},
-					{ 
+					{
 						animation = "sitting",
 						group = "RootNode",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.75, 0.1, 0.85, 1, },
 					},
-					{ 
+					{
 						animation = "sitting",
 						group = "RootNode",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.75, -0.55, 0.85, 1, },
 					},
-					{ 
+					{
 						animation = "sitting",
 						group = "RootNode",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.75, -1.15, 0.85, 1, },
 					},
-					{ 
+					{
 						animation = "sitting",
 						group = "RootNode",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, 0.1, 0.85, 1, },
 					},
-					{ 
+					{
 						animation = "sitting",
 						group = "RootNode",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, -0.55, 0.85, 1, },
 					},
-					{ 
+					{
 						animation = "sitting",
 						group = "RootNode",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, -1.15, 0.85, 1, },
 					},
 				},
 			},
-			soundConfig = { 
-				soundSet = { 
+			soundConfig = {
+				soundSet = {
 					name = "::/vehicle/train/shared/sound/train_diesel.snd",
 				},
 			},
-			transformatorConfig = { 
+			transformatorConfig = {
 				skipFromLod = 1,
-				transformator = { 
+				transformator = {
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
 			},
-			transportVehicle = { 
+			transportVehicle = {
 				arrivalDelay = 2800,
 				carrier = "RAIL",
 				compartments = {
-					{ 
+					{
 						loadConfigs = {
-							{ 
-								cargoEntry = { 
+							{
+								cargoEntry = {
 									capacity = 8,
-									cargoTypeSet = { 
+									cargoTypeSet = {
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "PASSENGERS", },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "",
 									seats = { },
@@ -887,8 +887,8 @@ return {
 					},
 				},
 				departureDelay = 2100,
-				engineTransportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-				filterTags = { },
+				engineTransportModes = { "TRAIN", },
+				filterTags = { "default", },
 				loadSpeed = 4,
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
