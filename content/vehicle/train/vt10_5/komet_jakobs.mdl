@@ -16,21 +16,21 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "mat/komet/wagen1/rumpf.mtl", "mat/shared/beweglich.mtl", },
-							mesh = "msh/shared/jacobsdreh_lod0.msh",
-							name = "jacobsdreh",
+							materials = { "mat/komet/wagen1.mtl", "mat/shared/beweglich.mtl", },
+							mesh = "msh/komet/jacobsdreh_lod0.msh",
+							name = "bogie1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39938199520111083984375, 1, },
 						},
 						{
 							materials = { "mat/shared/beweglich.mtl", },
 							mesh = "msh/shared/rad_lod0.msh",
-							name = "rad",
+							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
 						},
 						{
 							materials = { "mat/shared/beweglich.mtl", },
 							mesh = "msh/shared/rad_lod0.msh",
-							name = "rad",
+							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
 						},
 					},
@@ -44,21 +44,21 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "/vehicle/waggon/vt10.5/senator_1/wagen1/mat/rumpf.mtl", "mat/shared/beweglich.mtl", },
-							mesh = "msh/shared/jacobsdreh_lod1.msh",
-							name = "jacobsdreh",
+							materials = { "mat/komet/wagen1.mtl", "mat/shared/beweglich.mtl", },
+							mesh = "msh/senator/jakob/jacobsdreh_lod1.msh",
+							name = "bogie1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39938199520111083984375, 1, },
 						},
 						{
 							materials = { "mat/shared/beweglich.mtl", },
 							mesh = "msh/shared/rad_lod1.msh",
-							name = "rad",
+							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
 						},
 						{
 							materials = { "mat/shared/beweglich.mtl", },
 							mesh = "msh/shared/rad_lod1.msh",
-							name = "rad",
+							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
 						},
 					},
@@ -72,21 +72,21 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "/vehicle/waggon/vt10.5/senator_1/wagen1/mat/rumpf.mtl", "mat/shared/beweglich.mtl", },
-							mesh = "msh/shared/jacobsdreh_lod2.msh",
-							name = "jacobsdreh",
+							materials = { "mat/senator1/wagen1.mtl", "mat/shared/beweglich.mtl", },
+							mesh = "msh/senator/jakob/jacobsdreh_lod2.msh",
+							name = "bogie1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.39938199520111083984375, 1, },
 						},
 						{
 							materials = { "mat/shared/beweglich.mtl", },
 							mesh = "msh/shared/rad_lod2.msh",
-							name = "rad",
+							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
 						},
 						{
 							materials = { "mat/shared/beweglich.mtl", },
 							mesh = "msh/shared/rad_lod2.msh",
-							name = "rad",
+							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.587572991847991943359375, 0, 0.3927882611751556396484375, 1, },
 						},
 					},
@@ -120,6 +120,10 @@ return {
 					speed = -1,
 				},
 			},
+            extent = {
+    			bbMax = { 0.20000000298023223876953125, 1.5636541843414306640625, 3.7160389423370361328125, },
+	    		bbMin = { -0.20000000298023223876953125, -1.563654422760009765625, -0.038087427616119384765625, },
+	    	},
 			landVehicle = {
 				brakeDeceleration = 2.5,
 				engines = { },
@@ -133,7 +137,7 @@ return {
 			},
 			railVehicle = {
 				config = {
-					axles = { "rad", },
+					axles = { "a1", "a2", },
 					fakeBogies = { },
 				},
 			},

@@ -16,95 +16,31 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "mat/komet/wagen1.mtl", },
-							mesh = "msh/senator/wagen2/rumpf_lod0.msh",
+							materials = { "mat/senator1/wagen1.mtl", },
+							mesh = "msh/senator/wagen1/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
-							materials = { "mat/komet/innen1.mtl", },
-							mesh = "msh/senator/wagen2/innen_lod0.msh",
+							materials = { "mat/senator1/innen1.mtl", },
+							mesh = "msh/senator/wagen1/innen_lod0.msh",
 							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/fenster_lod0.msh",
+							mesh = "msh/senator/wagen1/fenster_lod0.msh",
 							name = "fenster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
-							animations = {
-								close_all_doors = {
-									params = {
-										id = "ani/door_r_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = {
-									params = {
-										id = "ani/door_r_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_all_doors = {
-									params = {
-										id = "ani/door_r_open.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = {
-									params = {
-										id = "ani/door_r_open.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/komet/wagen1.mtl", "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/tuer_links_lod0.msh",
-							name = "tuer_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{
-							animations = {
-								close_all_doors = {
-									params = {
-										id = "ani/door_l_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_left = {
-									params = {
-										id = "ani/door_l_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_all_doors = {
-									params = {
-										id = "ani/door_l_open.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = {
-									params = {
-										id = "ani/door_l_open.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/komet/wagen1.mtl", "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/tuer_rechts_lod0.msh",
-							name = "tuer_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{
-							materials = { "mat/komet/wagen1.mtl", },
+							materials = { "mat/senator1/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
 							name = "balgadapter1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6, 0, 0, 1, },
 						},
 						{
-							materials = { "mat/komet/wagen1.mtl", },
+							materials = { "mat/senator1/wagen1.mtl", },
 							mesh = "msh/shared/balgadapter_lod0.msh",
 							name = "balgadapter2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6, 0, 0, 1, },
@@ -120,85 +56,21 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "mat/komet/wagen1.mtl", },
-							mesh = "msh/senator/wagen2/rumpf_lod1.msh",
+							materials = { "mat/senator1/wagen1.mtl", },
+							mesh = "msh/senator/wagen1/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
-							materials = { "mat/komet/innen1.mtl", },
-							mesh = "msh/senator/wagen2/innen_lod1.msh",
+							materials = { "mat/senator1/innen1.mtl", },
+							mesh = "msh/senator/wagen1/innen_lod1.msh",
 							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
 							materials = { "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/fenster_lod0.msh",
+							mesh = "msh/senator/wagen1/fenster_lod0.msh",
 							name = "fenster",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{
-							animations = {
-								close_all_doors = {
-									params = {
-										id = "ani/door_r_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = {
-									params = {
-										id = "ani/door_r_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_all_doors = {
-									params = {
-										id = "ani/door_r_open.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = {
-									params = {
-										id = "ani/door_r_open.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/komet/wagen1.mtl", "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/tuer_links_lod1.msh",
-							name = "tuer_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{
-							animations = {
-								close_all_doors = {
-									params = {
-										id = "ani/door_l_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_left = {
-									params = {
-										id = "ani/door_l_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_all_doors = {
-									params = {
-										id = "ani/door_l_open.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = {
-									params = {
-										id = "ani/door_l_open.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/komet/wagen1.mtl", "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/tuer_rechts_lod1.msh",
-							name = "tuer_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -212,79 +84,15 @@ return {
 				node = {
 					children = {
 						{
-							materials = { "mat/komet/wagen1.mtl", },
-							mesh = "msh/senator/wagen2/rumpf_lod2.msh",
+							materials = { "mat/senator1/wagen1.mtl", },
+							mesh = "msh/senator/wagen1/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
-							materials = { "mat/komet/innen1.mtl", },
-							mesh = "msh/senator/wagen2/innen_lod2.msh",
+							materials = { "mat/senator1/innen1.mtl", },
+							mesh = "msh/senator/wagen1/innen_lod2.msh",
 							name = "interior",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{
-							animations = {
-								close_all_doors = {
-									params = {
-										id = "ani/door_r_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = {
-									params = {
-										id = "ani/door_r_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_all_doors = {
-									params = {
-										id = "ani/door_r_open.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = {
-									params = {
-										id = "ani/door_r_open.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/komet/wagen1.mtl", "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/tuer_links_lod2.msh",
-							name = "tuer_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{
-							animations = {
-								close_all_doors = {
-									params = {
-										id = "ani/door_l_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_left = {
-									params = {
-										id = "ani/door_l_close.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_all_doors = {
-									params = {
-										id = "ani/door_l_open.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = {
-									params = {
-										id = "ani/door_l_open.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/komet/wagen1.mtl", "mat/shared/glas.mtl", },
-							mesh = "msh/senator/wagen2/tuer_rechts_lod2.msh",
-							name = "tuer_rechts",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -316,10 +124,10 @@ return {
 					speed = -1,
 				},
 			},
-			extent = {
-				bbMax = { 6, 1.56365, 3.71604, },
-				bbMin = { -6, -1.56365, -0.0380874, },
-			},
+            extent = {
+    			bbMax = { 6, 1.56365, 3.71604, },
+	    		bbMin = { -6, -1.56365, -0.0380874, },
+	    	},
 			landVehicle = {
 				brakeDeceleration = 2.5,
 				engines = { },
@@ -371,28 +179,24 @@ return {
 							},
 						},
 						{
-							{
-								group = "RootNode",
-								offset = 0,
-								position = -5.9,
-							},
-							{
-								group = "RootNode",
-								offset = 0,
-								position = 5.9,
-							},
+							group = "RootNode",
+							offset = 0,
+							position = -5.9,
 						},
 						{
-							{
-								group = "RootNode",
-								offset = 0,
-								position = -5.9,
-							},
-							{
-								group = "RootNode",
-								offset = 0,
-								position = 5.9,
-							},
+							group = "RootNode",
+							offset = 0,
+							position = 5.9,
+						},
+						{
+							group = "RootNode",
+							offset = 0,
+							position = -5.9,
+						},
+						{
+							group = "RootNode",
+							offset = 0,
+							position = 5.9,
 						},
 					},
 				},
@@ -419,7 +223,7 @@ return {
 					{
 						animation = "sitting",
 						group = "RootNode",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.95, -0.45, 0.85, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.95, 0.45, 0.85, 1, },
 					},
 					{
 						animation = "sitting",
@@ -434,7 +238,7 @@ return {
 					{
 						animation = "sitting",
 						group = "RootNode",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.95, -0.45, 0.85, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.95, 0.45, 0.85, 1, },
 					},
 					{
 						animation = "sitting",
@@ -449,7 +253,7 @@ return {
 					{
 						animation = "sitting",
 						group = "RootNode",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.65, -0.45, 0.85, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.65, 0.45, 0.85, 1, },
 					},
 					{
 						animation = "sitting",
@@ -464,7 +268,7 @@ return {
 					{
 						animation = "sitting",
 						group = "RootNode",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.65, -0.45, 0.85, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.65, 0.45, 0.85, 1, },
 					},
 					{
 						animation = "sitting",
@@ -479,7 +283,7 @@ return {
 					{
 						animation = "sitting",
 						group = "RootNode",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, -0.45, 0.85, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, 0.45, 0.85, 1, },
 					},
 					{
 						animation = "sitting",
@@ -494,7 +298,7 @@ return {
 					{
 						animation = "sitting",
 						group = "RootNode",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.65, -0.45, 0.85, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.65, 0.45, 0.85, 1, },
 					},
 					{
 						animation = "sitting",
@@ -509,12 +313,37 @@ return {
 					{
 						animation = "sitting",
 						group = "RootNode",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.95, -0.45, 0.85, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.95, 0.45, 0.85, 1, },
 					},
 					{
 						animation = "sitting",
 						group = "RootNode",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.95, 1.15, 0.85, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.95, -1.15, 0.85, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.95, 0.45, 0.85, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.95, 1.15, 0.85, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.25, -1.15, 0.85, 1, },
+					},
+					{
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.25, 1.15, 0.85, 1, },
 					},
 				},
 			},
@@ -530,14 +359,13 @@ return {
 				},
 			},
 			transportVehicle = {
-				arrivalDelay = 2800,
 				carrier = "RAIL",
 				compartments = {
 					{
 						loadConfigs = {
 							{
 								cargoEntry = {
-									capacity = 24,
+									capacity = 32,
 									cargoTypeSet = {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "PASSENGERS", },
@@ -552,7 +380,6 @@ return {
 						},
 					},
 				},
-				departureDelay = 2100,
 				engineTransportModes = { },
 				filterTags = { },
 				loadSpeed = 4,
