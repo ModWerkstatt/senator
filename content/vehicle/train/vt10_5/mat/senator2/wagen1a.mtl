@@ -26,7 +26,6 @@ return {
 				fragmentSamplers = {
 					albedoTex = {
 						fileName = "tex/wagen12a_albedo.dds",
-						redGreen = true,
 						type = "TWOD",
 					},
 				},
@@ -35,7 +34,6 @@ return {
 				fragmentSamplers = {
 					cblendTex = {
 						fileName = "tex/wagen12_cblend_dirt_rust.dds",
-						redGreen = true,
 						type = "TWOD",
 					},
 				},
@@ -44,7 +42,6 @@ return {
 				fragmentSamplers = {
 					metalGlossAoTex = {
 						fileName = "tex/wagen12a_metal_gloss_ao.dds",
-						redGreen = true,
 						type = "TWOD",
 					},
 				},

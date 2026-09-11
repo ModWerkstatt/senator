@@ -26,7 +26,6 @@ return {
 				fragmentSamplers = {
 					albedoTex = {
 						fileName = "tex/kopf1_albedo.dds",
-						redGreen = true,
 						type = "TWOD",
 					},
 				},
@@ -34,8 +33,7 @@ return {
 			map_cblend = {
 				fragmentSamplers = {
 					cblendTex = {
-						fileName = "/vehicle/car/vt10.5/senator_1/mat/tex/rumpf_cblend_dirt_rust.dds",
-						redGreen = true,
+						fileName = "tex/rumpf_cblend_dirt_rust.dds",
 						type = "TWOD",
 					},
 				},
@@ -44,7 +42,6 @@ return {
 				fragmentSamplers = {
 					metalGlossAoTex = {
 						fileName = "tex/kopf1_metal_gloss_ao.dds",
-						redGreen = true,
 						type = "TWOD",
 					},
 				},

@@ -15,7 +15,6 @@ return {
 				fragmentSamplers = {
 					albedoTex = {
 						fileName = "tex/innen_12_albedo.dds",
-						redGreen = true,
 						type = "TWOD",
 					},
 				},
@@ -24,7 +23,6 @@ return {
 				fragmentSamplers = {
 					metalGlossAoTex = {
 						fileName = "tex/innen_12_metal_gloss_ao.dds",
-						redGreen = true,
 						type = "TWOD",
 					},
 				},
