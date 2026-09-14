@@ -248,13 +248,13 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
@@ -364,13 +364,13 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
@@ -723,7 +723,7 @@ return {
 			},
 			railVehicle = {
 				config = {
-					axles = { "rad", },
+					axles = { "a1", "a2", },
 					fakeBogies = {
 						{
 							{

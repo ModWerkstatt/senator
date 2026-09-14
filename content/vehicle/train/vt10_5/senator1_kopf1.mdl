@@ -759,7 +759,7 @@ return {
 			},
 			railVehicle = {
 				config = {
-					axles = { "rad", },
+					axles = { "a1", "a2" },
 					fakeBogies = {
 						{
 							{

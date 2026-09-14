@@ -18,7 +18,7 @@ return {
 						{
 							materials = { "mat/senator1/kopf2.mtl", },
 							mesh = "msh/senator/kopf2/rumpf_lod0.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -32,13 +32,13 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod0.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
@@ -234,7 +234,7 @@ return {
 						{
 							materials = { "mat/senator1/kopf2.mtl", },
 							mesh = "msh/senator/kopf2/rumpf_lod1.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -248,13 +248,13 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod1.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
@@ -350,7 +350,7 @@ return {
 						{
 							materials = { "mat/senator1/kopf2.mtl", },
 							mesh = "msh/senator/kopf2/rumpf_lod2.msh",
-							name = "rumpf_kopf_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
@@ -364,13 +364,13 @@ return {
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 								{
 									materials = { "mat/shared/beweglich.mtl", },
 									mesh = "msh/shared/rad_lod2.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15439999103546142578125, 0, 0.3927882611751556396484375, 1, },
 								},
 							},
@@ -588,7 +588,7 @@ return {
 			particleSystem = {
 				emitters = {
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -632,7 +632,7 @@ return {
 						},
 					},
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -676,7 +676,7 @@ return {
 						},
 					},
 					{
-						child = "rumpf_kopf_1",
+						child = "body",
 						colorOverLifeTime = {
 							curve = {
 								{
@@ -723,7 +723,7 @@ return {
 			},
 			railVehicle = {
 				config = {
-					axles = { "rad", },
+					axles = { "a1", "a2", },
 					fakeBogies = {
 						{
 							{
