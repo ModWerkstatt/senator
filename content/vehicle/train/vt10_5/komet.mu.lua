@@ -19,7 +19,7 @@ return {
 	},
 	name = _("komet_name"),
 	desc = _("komet_desc"),
-    groupFileName = "menu_vt10_5.mdl",
+	groupFileName = "menu_vt10_5.mdl",
     filterTags = { "default", },
 }
 end

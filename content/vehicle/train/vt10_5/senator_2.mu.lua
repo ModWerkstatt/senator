@@ -17,7 +17,7 @@ return {
 	},
 	name = _("senator_2_name"),
 	desc = _("senator_desc"),
-    groupFileName = "menu_vt10_5.mdl",
+	groupFileName = "menu_vt10_5.mdl",
     filterTags = { "default" },
 }
 end
