@@ -361,6 +361,50 @@ return {
 							name = "interior",
 							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
+						{
+							animations = {
+								front_forward_parts_off = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/shared/licht.mtl", },
+							mesh = "msh/senator/shared/licht_weiss_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							animations = {
+								back_backward_parts_off = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/shared/licht.mtl", },
+							mesh = "msh/senator/shared/licht_rot_lod0.msh",
+							name = "taillights_bwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
 					},
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -623,141 +667,211 @@ return {
 				lifespan = 21915,
 				runningCosts = -1,
 			},
-			particleSystem = {
+			particleSystem = { 
 				emitters = {
-					{
-						child = "body",
-						colorOverLifeTime = {
+					{ 
+						alphaOverLifeTime = { 
 							curve = {
-								{
+								{ 
 									easing = "Linear",
-									time = 1,
-									value = { 0.300000011920928955078125, 0.300000011920928955078125, 0.300000011920928955078125, },
+									time = 0,
+									value = 0.1,
+								},
+								{ 
+									easing = "Linear",
+									time = 0.8,
+									value = 0,
 								},
 							},
 						},
-						frequency = {
-							value = 40,
+						child = "body",
+						colorOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 1,
+									value = { 0.388235, 0.388235, 0.388235, },
+								},
+							},
 						},
-						lifeTime = {
-							randomMinMax = {
-								max = 0.20000000298023223876953125,
-								min = 0.100000001490116119384765625,
+						frequency = { 
+							value = 70,
+						},
+						lifeTime = { 
+							randomMinMax = { 
+								max = 0.8,
+								min = 0.55,
 							},
 						},
 						particleId = "",
-						position = { 8.1639995574951171875, 0.569199979305267333984375, 3.7000000476837158203125, },
-						sizeOverLifeTime = {
+						position = { 6.55, 0, 3.75, },
+						shape = { 
+							point = { 
+								maxDir = 0.8,
+							},
+						},
+						sizeOverLifeTime = { 
 							curve = {
-								{
+								{ 
 									easing = "Linear",
 									time = 0,
-									value = {
-										value = 0.20000000298023223876953125,
+									value = { 
+										value = 0,
 									},
 								},
-								{
+								{ 
 									easing = "EaseOutSqrt",
-									time = 4,
-									value = {
+									time = 3,
+									value = { 
 										value = 2,
 									},
 								},
 							},
 						},
-						velocity = {
+						velocity = { 
 							value = { 0, 0, 3, },
 						},
+						velocityByDirection = { 
+							value = 0,
+						},
+						velocityDampingFactor = 0.5,
 					},
-					{
-						child = "body",
-						colorOverLifeTime = {
+					{ 
+						alphaOverLifeTime = { 
 							curve = {
-								{
+								{ 
 									easing = "Linear",
-									time = 1,
-									value = { 0.300000011920928955078125, 0.300000011920928955078125, 0.300000011920928955078125, },
+									time = 0,
+									value = 0.1,
+								},
+								{ 
+									easing = "Linear",
+									time = 0.8,
+									value = 0,
 								},
 							},
 						},
-						frequency = {
-							value = 40,
+						child = "body",
+						colorOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 1,
+									value = { 0.388235, 0.388235, 0.388235, },
+								},
+							},
 						},
-						lifeTime = {
-							randomMinMax = {
-								max = 0.20000000298023223876953125,
-								min = 0.100000001490116119384765625,
+						frequency = { 
+							value = 70,
+						},
+						lifeTime = { 
+							randomMinMax = { 
+								max = 0.8,
+								min = 0.55,
 							},
 						},
 						particleId = "",
-						position = { 8.1639995574951171875, -0.569199979305267333984375, 3.7000000476837158203125, },
-						sizeOverLifeTime = {
+						position = { 8.15, 0.57, 3.75, },
+						shape = { 
+							point = { 
+								maxDir = 0.8,
+							},
+						},
+						sizeOverLifeTime = { 
 							curve = {
-								{
+								{ 
 									easing = "Linear",
 									time = 0,
-									value = {
-										value = 0.20000000298023223876953125,
+									value = { 
+										value = 0,
 									},
 								},
-								{
+								{ 
 									easing = "EaseOutSqrt",
-									time = 4,
-									value = {
+									time = 3,
+									value = { 
 										value = 2,
 									},
 								},
 							},
 						},
-						velocity = {
+						velocity = { 
 							value = { 0, 0, 3, },
 						},
+						velocityByDirection = { 
+							value = 0,
+						},
+						velocityDampingFactor = 0.5,
 					},
-					{
-						child = "body",
-						colorOverLifeTime = {
+					{ 
+						alphaOverLifeTime = { 
 							curve = {
-								{
+								{ 
 									easing = "Linear",
-									time = 1,
-									value = { 0.300000011920928955078125, 0.300000011920928955078125, 0.300000011920928955078125, },
+									time = 0,
+									value = 0.1,
+								},
+								{ 
+									easing = "Linear",
+									time = 0.8,
+									value = 0,
 								},
 							},
 						},
-						frequency = {
-							value = 40,
+						child = "body",
+						colorOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 1,
+									value = { 0.388235, 0.388235, 0.388235, },
+								},
+							},
 						},
-						lifeTime = {
-							randomMinMax = {
-								max = 0.20000000298023223876953125,
-								min = 0.100000001490116119384765625,
+						frequency = { 
+							value = 70,
+						},
+						lifeTime = { 
+							randomMinMax = { 
+								max = 0.8,
+								min = 0.55,
 							},
 						},
 						particleId = "",
-						position = { 6.55700016021728515625, 0, 3.7000000476837158203125, },
-						sizeOverLifeTime = {
+						position = { 8.15, -0.57, 3.75, },
+						shape = { 
+							point = { 
+								maxDir = 0.8,
+							},
+						},
+						sizeOverLifeTime = { 
 							curve = {
-								{
+								{ 
 									easing = "Linear",
 									time = 0,
-									value = {
-										value = 0.20000000298023223876953125,
+									value = { 
+										value = 0,
 									},
 								},
-								{
+								{ 
 									easing = "EaseOutSqrt",
-									time = 4,
-									value = {
+									time = 3,
+									value = { 
 										value = 2,
 									},
 								},
 							},
 						},
-						velocity = {
+						velocity = { 
 							value = { 0, 0, 3, },
 						},
+						velocityByDirection = { 
+							value = 0,
+						},
+						velocityDampingFactor = 0.5,
 					},
 				},
+				maxDistance = 400,
 			},
 			railVehicle = {
 				config = {
@@ -791,10 +905,9 @@ return {
 				crewModels = { },
 				drivingLicense = "RAIL",
 				seats = {
-					{
 						animation = "driving_upright",
 						crew = true,
-						group = "RootNode",
+						group = "headlights_fwd",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.8999996185302734375, 0, 1.7999999523162841796875, 1, },
 					},
 					{
