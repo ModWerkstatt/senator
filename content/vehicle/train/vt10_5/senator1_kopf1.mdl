@@ -905,6 +905,7 @@ return {
 				crewModels = { },
 				drivingLicense = "RAIL",
 				seats = {
+					{
 						animation = "driving_upright",
 						crew = true,
 						group = "headlights_fwd",
